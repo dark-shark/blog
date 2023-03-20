@@ -82,7 +82,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'fa',
 
     /*
     |--------------------------------------------------------------------------
@@ -163,6 +163,13 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+
+        /*
+         * Module Service Providers...
+         */
+        Mob\Home\Providers\HomeServiceProvider::class,
+        Mob\User\Providers\UserServiceProvider::class,
+        Mob\Auth\Providers\AuthServiceProvider::class,
 
         /*
          * Package Service Providers...
