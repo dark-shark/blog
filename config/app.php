@@ -170,6 +170,7 @@ return [
         Mob\Home\Providers\HomeServiceProvider::class,
         Mob\User\Providers\UserServiceProvider::class,
         Mob\Auth\Providers\AuthServiceProvider::class,
+        Mob\Panel\Providers\PanelServiceProvider::class,
 
         /*
          * Package Service Providers...
